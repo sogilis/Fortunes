@@ -1,0 +1,4 @@
+[submodule "librandom"]
+	path = librandom
+	url = git@github.com:sogilis/Fortunes.git
+	branch = librandom

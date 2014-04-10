@@ -1,5 +1,7 @@
 #!/usr/bin/env lua
 
+require "libpeople/librandom/random"
+
 local people = {
   "ma grand mère";
   "le chien";
@@ -7,9 +9,6 @@ local people = {
   "un chat qui passait par là";
 }
 
-math.randomseed(os.time())
-math.random(); math.random(); math.random()
-
 return function()
-  return people[math.random(#people)]
+  return table.randomitem(people)
 end
