@@ -5,6 +5,9 @@ actions = {
   "se repose dessous";
 }
 
+math.randomseed(os.time())
+math.random(); math.random(); math.random()
+
 return function()
-  return actions[math.random(1, #actions)]
+  return actions[math.random(#actions)]
 end
