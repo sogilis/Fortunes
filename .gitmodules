@@ -1,8 +1,12 @@
 [submodule "libpeople"]
 	path = libpeople
 	url = git@github.com:sogilis/Fortunes.git
-	branch = libpeople
+	branch = libpeople-next
 [submodule "libplace"]
 	path = libplace
 	url = git@github.com:sogilis/Fortunes.git
-	branch = libplace
+	branch = libplace-next
+[submodule "libaction"]
+	path = libaction
+	url = git@github.com:sogilis/Fortunes.git
+	branch = libaction-next
