@@ -1,0 +1,8 @@
+[submodule "libpeople"]
+	path = libpeople
+	url = git@github.com:sogilis/Fortunes.git
+	branch = libpeople
+[submodule "libplace"]
+	path = libplace
+	url = git@github.com:sogilis/Fortunes.git
+	branch = libplace
