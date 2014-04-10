@@ -1,12 +1,12 @@
 #!/usr/bin/env lua
 
 people = require("libpeople/people")
--- action = require("libaction/action")
+action = require("libaction/action")
 place  = require("libplace/place")
 
 local function fortune()
   return people() .. " " ..
-    -- action() .. " " ..
+    action() .. " " ..
     place()
 end
 

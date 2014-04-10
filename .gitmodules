@@ -6,3 +6,7 @@
 	path = libplace
 	url = git@github.com:sogilis/Fortunes.git
 	branch = libplace
+[submodule "libaction"]
+	path = libaction
+	url = git@github.com:sogilis/Fortunes.git
+	branch = libaction
