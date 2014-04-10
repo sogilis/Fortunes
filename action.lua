@@ -1,13 +1,14 @@
 #!/usr/bin/env lua
 
+require "librandom/random"
+
 local actions = {
   "passe par";
   "se repose dessous";
+  "mange";
+  "joue";
 }
 
-math.randomseed(os.time())
-math.random(); math.random(); math.random()
-
 return function()
-  return actions[math.random(#actions)]
+  return table.randomitem(actions)
 end
