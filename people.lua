@@ -4,6 +4,7 @@ local people = {
   "ma grand mère";
   "le chien";
   "le voisin";
+  "un chat qui passait par là";
 }
 
 math.randomseed(os.time())
