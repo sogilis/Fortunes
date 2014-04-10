@@ -30,6 +30,7 @@ Visualiser les modifications :
 
     git show
 
+
     diff --git a/.gitmodules b/.gitmodules
     index e192c65..cb03f32 100644
     --- a/.gitmodules
