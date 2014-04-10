@@ -28,6 +28,8 @@ Faire un commit :
 
 Visualiser les modifications :
 
+    git show
+
     diff --git a/.gitmodules b/.gitmodules
     index e192c65..cb03f32 100644
     --- a/.gitmodules
@@ -68,7 +70,7 @@ Visualiser les modifications :
     +Subproject commit a90173200bcfa09f330211fac01c100a48a3e7b3
 
 
-Mettre à jour un submodule via it submodule update
+Mettre à jour un submodule via git submodule update
 --------------------------------------------------
 
 Mettre à jour le submodule `libplace` en utilisant l'option `--remote` de `git submodule update`
