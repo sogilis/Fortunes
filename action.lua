@@ -1,6 +1,6 @@
 #!/usr/bin/env lua
 
-actions = {
+local actions = {
   "passe par";
   "se repose dessous";
 }
