@@ -3,4 +3,10 @@
 people = require("libpeople/people")
 place  = require("libplace/place")
 
-print(people() .. " " .. place())
+local function fortune()
+  return people() .. " " .. place()
+end
+
+for i = 1, 5 do
+  print(i, fortune())
+end
