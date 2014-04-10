@@ -1,5 +1,7 @@
 #!/usr/bin/env lua
 
+require "libplace/librandom/random"
+
 local places = {
   "la grange";
   "sous un arbre";
@@ -7,9 +9,6 @@ local places = {
   "sous la table";
 }
 
-math.randomseed(os.time())
-math.random(); math.random(); math.random()
-
 return function()
-  return places[math.random(#places)]
+  return table.randomitem(places)
 end
