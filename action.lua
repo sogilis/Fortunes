@@ -1,6 +1,6 @@
 #!/usr/bin/env lua
 
-require "librandom/random"
+require "libaction/librandom/random"
 
 local actions = {
   "passe par";
