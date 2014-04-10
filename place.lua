@@ -3,6 +3,8 @@
 local places = {
   "la grange";
   "sous un arbre";
+  "dans un tonneau";
+  "sous la table";
 }
 
 math.randomseed(os.time())
